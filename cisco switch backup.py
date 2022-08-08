@@ -1,3 +1,8 @@
+## Automated Python Script to backup Cisco L2/L3 running configs ##
+## CSV of hosts and service account information are needed ##
+## Ideally scheduled with cron ##
+
+
 # All pre-installed besides Netmiko.
 from csv import reader
 from datetime import date, datetime
