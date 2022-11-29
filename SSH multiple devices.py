@@ -14,7 +14,7 @@ with open('host.txt') as switches:
 
         print('Connecting to ' + IP)
         print('-'*79)
-        output = net_connect.send_command('sh ip int brief')
+        output = net_connect.send_command('sh ver')
         print(output)
         print()
         print('-'*79)
